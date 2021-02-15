@@ -1,8 +1,15 @@
 body{
     background-color: #000000;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1rem;
+    line-height: 1.5;
+    text-align: center;
+    color: #8532AE;
+    margin: 0;
 }
 
 #navbar ul{
+    font-family: 'Dancing Script', cursive;
     list-style-type: none;
     margin: 0;
     padding: 0;
@@ -22,8 +29,84 @@ body{
     background-color: #8532AE;
 }
 
+h1{
+    font-size: 4rem;
+    padding-top: 15px;
+    color: #331D35;
+    margin-bottom: 0px;
+}
+
+@media (max-width: 460px){
+    h1{
+        font-size: 3.5rem;
+        line-height: 1.2;
+    }
+}
+
+h2{
+    font-size: 2rem;
+}
+
+#subtitle {
+    margin-top: 0;
+}
+
 #container{
     background-color: #F4F6FD;
-    margin-top: 10px;
+    margin: 10px 10px 10px 10px ;
     border-radius: 10px;
+}
+
+img {
+    max-width: 100%;
+    display: block;
+    height: auto;
+    margin: 0 auto;
+}
+
+#img-div{
+    background: none;
+    padding: 10px;
+    margin: 0;
+}
+
+#img-caption{
+    color: #000000;
+    font-size: 14px;
+    opacity: 80%;
+    margin: 15px 0 5px 0;
+    text-align: center;
+}
+
+hr{
+    margin: 0 15px 0 15px;
+}
+
+span, strong{
+    color: #FFC60A;
+}
+
+#tribute-info ul{
+    color: #000000;
+    list-style-type: none;
+    padding-bottom: 15px;
+}
+
+#birth{
+    margin: 15px;
+}
+
+#dear-basketball{
+    font-family: 'Dancing Script', cursive;
+    font-size: 1.5rem;
+    color: #000000;
+    opacity: 80%;
+}
+
+#link{
+    padding-bottom: 25px;
+}
+
+#tribute-link{
+    color: #331D35;
 }
